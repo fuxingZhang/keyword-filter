@@ -1,6 +1,8 @@
 # keyword-filter
 Sensitive word filter
 
+Node.js 12+ required (Because of use Class private fields)
+
 ## Install
 
 ```sh
