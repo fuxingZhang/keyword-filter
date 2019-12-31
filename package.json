@@ -1,6 +1,6 @@
 {
   "name": "@zhangfuxing/keyword-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sensitive word filter",
   "main": "index.js",
   "scripts": {
