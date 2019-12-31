@@ -1,0 +1,32 @@
+{
+  "name": "@zhangfuxing/keyword-filter",
+  "version": "1.0.0",
+  "description": "Sensitive word filter",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "sensitive",
+    "keyword",
+    "filter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuxingZhang/word-filter.git"
+  },
+  "author": "Zhang Fu Xing <502545703@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuxingZhang/word-filter/issues"
+  },
+  "homepage": "https://github.com/fuxingZhang/word-filter#readme",
+  "dependencies": {
+    "mint-filter": "^2.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
