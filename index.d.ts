@@ -14,7 +14,7 @@ declare class WordFilter {
    * 
    *  `text` Text to filter
    */
-  filter(text: string): void;
+  filter(text: string): string;
 }
 
 export = WordFilter
