@@ -25,7 +25,7 @@ class WordFilter {
         .filter(item => item);
       words.push(...arr);
     }
-    
+
     this.#mint = new Mint(words);
   }
 
