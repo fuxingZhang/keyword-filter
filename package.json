@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/fuxingZhang/keyword-filter#readme",
   "dependencies": {
+    "@zhangfuxing/readdir": "^1.0.1",
     "mint-filter": "^2.0.2"
   },
   "devDependencies": {

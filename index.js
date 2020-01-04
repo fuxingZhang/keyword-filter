@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const Mint = require('mint-filter').default;
+const { getFilePathsSync } = require('@zhangfuxing/readdir');
 
 class WordFilter {
   #mint;
@@ -13,12 +14,9 @@ class WordFilter {
    */
   constructor(dir = path.join(__dirname, './keywords')) {
     const words = [];
-    const names = fs.readdirSync(dir);
+    const filePaths = getFilePathsSync(dir);
 
-    for (let name of names) {
-      const filePath = path.join(dir, name);
-      const stat = fs.statSync(filePath);
-      if (stat.isDirectory()) continue;
+    for (const filePath of filePaths) {
       const arr = fs
         .readFileSync(filePath, "utf8")
         .split(/[\r\n]/)
